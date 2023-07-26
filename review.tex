@@ -1,71 +1,42 @@
-\documentclass[journal]{IEEEtran}
+\input{preamble.tex}
 
-% Packages
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{cite}
-\usepackage{lipsum} % For dummy text, you can remove this package in your final version
-
-% Title and authors
-\title{Imagined and Pronounced Speech Recognition: A Comprehensive Review}
-\author{Author1 \thanks{Author1's affiliation. Email: author1@example.com} \and
-	Author2 \thanks{Author2's affiliation. Email: author2@example.com} \and
-	Author3 \thanks{Author3's affiliation. Email: author3@example.com}}
-\date{\today}
+\input{titleAndAuthors.tex}
 
 % Document start
 \begin{document}
 	
 	\maketitle
 	
-	\begin{abstract}
-		% Your abstract goes here.
-		This comprehensive review examines the state-of-the-art in imagined and pronounced speech recognition technologies. We present an in-depth analysis of the existing literature, discussing the methodologies employed and summarizing the key findings. The review highlights the challenges and opportunities in this emerging field, paving the way for future advancements in speech recognition systems.
-	\end{abstract}
+	\input{abstract.tex}
 	
 	\section{Introduction}
-	% Your introduction goes here.
-	\lipsum[1-2] % Remove this line and replace with your actual introduction.
+		\input{sectionsAndSubsections/introductionSection.tex}
 	
 	\section{Related Work}
-	% Summarize related work on imagined and pronounced speech recognition.
-	\lipsum[3-4] % Remove this line and replace with your actual related work.
+		\input{sectionsAndSubsections/relatedWorkSection.tex}
 	
 	\section{Methods}
-	% Describe the systematic review methods used.
-	\lipsum[5] % Remove this line and replace with your actual methodology.
+		\input{sectionsAndSubsections/methods.tex}
 	
 	\section{Inclusion and Exclusion Criteria}
-	% Clearly state your inclusion and exclusion criteria.
-	\lipsum[6] % Remove this line and replace with your actual criteria.
+		\input{sectionsAndSubsections/inclusionExclusionCriteria.tex}
 	
 	\section{Literature Search}
-	% Describe your literature search strategy.
-	\lipsum[7] % Remove this line and replace with your actual literature search strategy.
+		\input{sectionsAndSubsections/literatureSearch.tex}
 	
 	\section{Results}
-	% Summarize the key findings from the selected studies.
-	\lipsum[8-10] % Remove this line and replace with your actual results.
-		\subsection{Study 1}
-			% Summary of Study 1.
-			\lipsum[6]
-		
-		\subsection{Study 2}
-			% Summary of Study 2.
-			\lipsum[7]
+		% Summarize the key findings from the selected studies.
+		\input{sectionsAndSubsections/resultsSection.tex}
 	
 	\section{Discussion}
-	% Discuss the implications of the findings and potential future research directions.
-	\lipsum[11-12] % Remove this line and replace with your actual discussion.
+		\input{sectionsAndSubsections/dicussion.tex}
 	
 	\section{Conclusion}
-	% Provide a concise conclusion of the review.
-	\lipsum[13] % Remove this line and replace with your actual conclusion.
+		\input{sectionsAndSubsections/conclusion.tex}
 	
 	% References
 	\bibliographystyle{IEEEtran}
-	%\bibliography{references.bib} % Replace 'references' with the name of your .bib file.
+	% Replace 'references' with the name of your .bib file.
+	%\bibliography{references.bib} 
 	
 \end{document}
